@@ -1,0 +1,17 @@
+# local AI tooling & private research — never committed
+CLAUDE.md
+.claude/
+research/
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+# run logs
+logs/
+# dagster local state (keep only the instance config)
+dagster_home/*
+!dagster_home/dagster.yaml
+
+# editor
+.vscode/

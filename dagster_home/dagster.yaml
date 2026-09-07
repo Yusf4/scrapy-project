@@ -1,0 +1,5 @@
+# One run at a time: Scrapy's politeness limits are per process, and every
+# partition shares the same target server's budget (see ARCHITECTURE.md).
+concurrency:
+  runs:
+    max_concurrent_runs: 1
